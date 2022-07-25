@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    background-color: #0069CA;
+    padding: 20px;
+    font-size: 18px;
+}
+
+nav div:first-child{
+    width: 10%;
+}
+nav div:nth-child(2){
+    width: 80%;
+}
+nav div:last-child{
+    width: 10%;
+}
+
+nav div:nth-child(2) ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav div:nth-child(2) ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+nav div:last-child a{
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: white;
+}
+nav div:last-child a{
+    color: #0069CA;
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+} 
+
+nav ul li i{
+    margin-left: 10px;
+    color: white;
+}
+
+nav #icon{
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* DROPDOWN LANGUAGE */
+nav ul select{
+    background-color: #0069CA;
+    color: white;
+    border-color: #0069CA;
+}
+
+/* HEADER */
+
+
+header{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 50px 0;
+  background-color: #0069CA;
+  color: white;
+  font-family: 'Arimo', sans-serif;
+}
+
+header section{
+  width: 40%;
+}
+
+header section:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+header section:first-child p{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+header section:first-child a{
+  color: #0069CA;
+  background-color: white;
+  width: 110px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+header section:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+header section:last-child img{
+  width: 550px;
+}
+
+
+/* ABOUT */
+.about{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Arimo', sans-serif;
+}
+
+.about div:first-child h1{
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.about .about-content{
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.about .about-content section{
+  width: 50%;
+}
+
+.about .about-content h1{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.about .about-content section:first-child{
+  box-sizing: border-box;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+
+.about .about-content  section:first-child a{
+  border: 1px solid #0069CA;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+  color: #0069CA;
+  width: 100px;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+.about .about-content section:last-child{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-right: 100px;
+}
+
+.about .about-content section:last-child div{
+  width: 250px;
+  height: 150px;
+  background-color: #99f;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+/* SERVİCES */
+
+#services{
+    background-color: #EFF3FF;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services section:first-child h1{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+#services section:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+#services section:last-child .card{
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(181, 181, 181);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+#services section:last-child .card i{
+  font-size: 40px;
+  color: #0069CA;
+}
+
+#services section:last-child .card h3{
+  font-size: 25px;
+  font-family: 'Arimo', sans-serif;
+}
+
+#services section:last-child .card p{
+  font-family: 'Arimo', sans-serif;
+  font-size: 14px;
+}
+
+
+/* İSLƏRİMİZ */
+
+.portfolio-header{
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.portfolio-header h1{
+  margin-bottom: 30px;
+  font-family: 'Arimo', sans-serif;
+}
+
+.portfolio-header p{
+font-family: 'Arimo', sans-serif;
+}
+
+.portfolio-main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-card{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 15px rgb(181, 181, 181);
+}
+
+.card-1{
+  width: 100%;
+  height: 230px;
+  border-bottom: 1px solid black;
+}
+
+.card-2{
+  width: 100%;
+  height: 70px;
+}
+
+
+/* FOOTER */
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  background-color: #F4FAFC;
+}
+
+.footer-logo ul li{
+  margin-bottom: 15px;
+  font-family: 'Arimo', sans-serif;
+}
+.footer-logo ul li:last-child{
+  margin-top: 90px;
+}
+
+.footer-sosial ul li{
+  margin-bottom: 15px;
+}
+.footer-sosial ul li:first-child{
+  font-size: 30px;
+}
+.footer-sosial ul li a{
+  color: #222B45;
+  font-family: 'Arimo', sans-serif;
+}
+
+.footer-company ul li{
+  margin-bottom: 15px;
+}
+.footer-company ul li:first-child{
+  font-size: 30px;
+}
+.footer-company ul li a{
+  color: black;
+  font-family: 'Arimo', sans-serif;
+}
+
+.footer-subscription button{
+  font-size: 20px;
+  font-family: 'Arimo', sans-serif;
+  padding: 15px;
+  background-color: #CC0100;
+  color: #F9F9F9;
+  border-radius: 10px;
+  border: none ;
+}
+
+
+                            /* RESPONSİVE */
+
+@media (max-width: 1250px){
+  .about .about-content section:last-child div{
+    width: 200px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 1024px){
+  header section:last-child{
+    width: 450px;
+  }
+
+  header section:last-child img{
+    width: 450px;
+  }
+
+  .portfolio-card{
+    width: 350px;
+    height: 250px;
+  }
+
+  .card-1{
+    height: 190px;
+  }
+
+  .card-2{
+    height: 60px;
+  }
+}
+
+@media (max-width: 900px){
+
+  /* NAVBAR */
+
+  nav #icon{
+    display: block;
+  }
+
+  nav div:last-child a{
+    display: none;
+  }
+
+  nav div:nth-child(2) ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2f3640;
+  }
+
+  nav div:nth-child(2) ul.show{
+    right: 0;
+  }
+
+  nav div:nth-child(2) ul.hidden{
+    right: -100%;
+  }
+
+  nav #icon1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 30px;
+    color: white;
+  }
+
+  /* HEADER */
+
+  header{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  header .header-content{
+    padding-bottom: 50px;
+  }
+
+  header section:first-child p{
+    padding: 50px 0;
+  }
+
+
+  header section:first-child a{
+    margin: auto;
+  }
+
+  /* ABOUT */
+
+  .about .about-content{
+    flex-direction: column;
+  }
+
+  .about .about-content section{
+    width: 80%;
+    margin: auto;
+  }
+
+  .about .about-content section:first-child{
+    text-align: center;
+    padding: 0;
+  }
+
+  .about .about-content section:first-child a{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .about .about-content section:first-child p{
+    padding: 50px 0;
+  }
+
+  .about .about-content section:last-child{
+    margin: auto;
+    padding: 0;
+    width: 60%;
+  }
+
+}
+
+
+
+
+
+
+
+

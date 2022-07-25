@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+}
+
+/* NAV */
+nav{
+  display: flex;
+  background-color: #0069CA;
+  padding: 20px;
+  font-size: 18px;
+}
+
+nav div:first-child{
+  width: 10%;
+}
+nav div:nth-child(2){
+  width: 80%;
+}
+nav div:last-child{
+  width: 10%;
+}
+
+nav div:nth-child(2) ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav div:nth-child(2) ul a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Arimo', sans-serif;
+}
+
+nav div:last-child a{
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: white;
+}
+nav div:last-child a{
+  color: #0069CA;
+  text-decoration: none;
+  font-family: 'Arimo', sans-serif;
+  font-size: 14px;
+} 
+
+nav ul li i{
+  margin-left: 10px;
+  color: white;
+}
+
+/* DROPDOWN LANGUAGE */
+nav ul select{
+  background-color: #0069CA;
+  color: white;
+  border-color: #0069CA;
+}
+
+/* İSLƏRİMİZ */
+.portfolio-header{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.portfolio-header h1{
+    margin-bottom: 30px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.portfolio-header p{
+  font-family: 'Arimo', sans-serif;
+}
+
+.portfolio-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-card{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 15px rgb(181, 181, 181);
+}
+
+.card-1{
+    width: 100%;
+    height: 230px;
+    border-bottom: 1px solid black;
+}
+
+.card-2{
+    width: 100%;
+    height: 70px;
+}
+
+/* FOOTER */
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  background-color: #F4FAFC;
+}
+
+.footer-logo ul li{
+  margin-bottom: 15px;
+  font-family: 'Arimo', sans-serif;
+}
+.footer-logo ul li:last-child{
+  margin-top: 90px;
+}
+
+.footer-sosial ul li{
+  margin-bottom: 15px;
+}
+.footer-sosial ul li:first-child{
+  font-size: 30px;
+}
+.footer-sosial ul li a{
+  color: #222B45;
+  font-family: 'Arimo', sans-serif;
+}
+
+.footer-company ul li{
+  margin-bottom: 15px;
+}
+.footer-company ul li:first-child{
+  font-size: 30px;
+}
+.footer-company ul li a{
+  color: black;
+  font-family: 'Arimo', sans-serif;
+}
+
+.footer-subscription button{
+  font-size: 20px;
+  font-family: 'Arimo', sans-serif;
+  padding: 15px;
+  background-color: #CC0100;
+  color: #F9F9F9;
+  border-radius: 10px;
+  border: none ;
+}
